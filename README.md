@@ -52,4 +52,3 @@ Learn the design pattern [here](https://github.com/logustra/dave)
 $ pnpm install
 
 $ pnpm dev
-```
