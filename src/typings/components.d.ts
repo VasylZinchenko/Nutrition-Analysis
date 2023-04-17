@@ -12,6 +12,7 @@ declare module '@vue/runtime-core' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Vcaloriestable: typeof import('./../components/organisms/VCaloriesTable/vcaloriestable.vue')['default']
+    Vdialogremove: typeof import('./../components/organisms/VDialogRemove/vdialogremove.vue')['default']
     Vformnutrition: typeof import('./../components/organisms/VFormNutrition/vformnutrition.vue')['default']
     Vinput: typeof import('./../components/atoms/VInput/vinput.vue')['default']
     Vlayout: typeof import('./../components/templates/VLayout/vlayout.vue')['default']

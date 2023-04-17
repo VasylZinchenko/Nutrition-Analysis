@@ -62,7 +62,6 @@ export const useNutritionStore = defineStore('nutritionStore', () => {
     inputs.value = inputs.value.filter(
       input => input !== currentIngredient.value,
     )
-    getNutritionData()
   }
 
   function addRow() {
