@@ -1,4 +1,4 @@
-[DEMO LINK](https://glistening-florentine-5f0a86.netlify.app/nutrition-analysis)
+[DEMO LINK](https://glistening-florentine-5f0a86.netlify.app/)
 
 <h2>Nutrition-analysis demo-app</h2>
 
