@@ -1,0 +1,46 @@
+hello: Bismillah, Hello World!
+menu:
+  home: Home
+  nutrition-analysis: Nutrition Analysis
+text:
+  first-paragraph: Enter an ingredient list list for what you are cooking, like
+  example: 1 cup rice or 10 oz chickpeas
+  etc: etc
+  last-paragraph: Enter each ingredient on a new line.
+  confirm-message: Are you sure you want to remove this ingredient?
+  home-first-p: Here you can research the calorie content and the list of nutrients contained in the products
+  home-second-p: 'To analyze dishes, go to the - '
+form:
+  count: count
+  measuring-unit: measuring unit
+  name: name
+  food: food
+  action: action
+  choose-a-unit: Choose a unit
+  new-ingredient: New ingredient
+table:
+  nutrition-facts: Nutrition Facts
+  amount-per-serving: Amount Per Serving
+  calories: Calories
+  total-fat: Total Fat
+  saturated-fat: Saturated Fat
+  trans-fat: Trans Fat
+  cholesterol: Cholesterol
+  sodium: Sodium
+  total-carbohydrate: Total Carbohydrate
+  dietary-fiber: Dietary Fiber
+  total-sugars: Total Sugars
+  protein: Protein
+  vitamin-d: Vitamin D
+  calcium: Calcium
+  iron: Iron
+  potassium: Potassium
+button:
+  analyze: Analyze
+  delete: Delete
+  cancel: Cancel
+  confirm: Confirm
+  new-recipe: New recipe
+error:
+  error: Error
+  uknown-error: Unknown error

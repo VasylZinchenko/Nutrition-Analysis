@@ -1,0 +1,25 @@
+/**
+ * DESC:
+ * tailwind colors.<color>.400
+ */
+$--colors: (
+  'primary': (
+    'base': #60a5fa,
+  ),
+  'success': (
+    'base': #34d399,
+  ),
+  'warning': (
+    'base': #fbbf24,
+  ),
+  'danger': (
+    'base': #f87171,
+  ),
+  'info': (
+    'base': #9ca3af,
+  ),
+);
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: $--colors,
+);

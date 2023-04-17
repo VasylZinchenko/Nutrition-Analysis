@@ -1,0 +1,65 @@
+{
+  "verbose": true,
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "noEmit": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": ["vite/client"],
+    "typeRoots": [
+      "node_modules/@types",
+      "typings"
+    ],
+
+    "paths": {
+      "*": ["types/*"],
+      "@/*": ["src/*"],
+      "@@/*": ["src/modules/*"],
+      "atoms": ["src/components/atoms"],
+      "molecules": ["src/components/molecules"],
+      "organisms": ["src/components/organisms"],
+      "templates": ["src/components/templates"]
+    },
+
+    "plugins": [
+      {
+        "name": "@vuedx/typescript-plugin-vue"
+      }
+    ]
+  },
+
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "public",
+    "commitlint.config.js"
+  ],
+
+  "references": [
+    { "path": "./tsconfig.node.json" }
+  ]
+}

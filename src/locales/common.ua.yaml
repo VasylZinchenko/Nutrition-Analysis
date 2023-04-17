@@ -1,0 +1,46 @@
+hello: Bismillah, Hello World!
+menu:
+  home: Головна
+  nutrition-analysis: Аналіз харчування
+text:
+  first-paragraph: Введіть англійською мовою інгредієнт, наприклад
+  example: 1 cup rice або 10 oz chickpeas
+  etc: тощо
+  last-paragraph: Введіть кожен інгредієнт у новому рядку.
+  confirm-message: Ви впевнені, що хочете видалити цей інгредієнт?
+  home-first-p: Тут можна дослідити калорійність та список поживних речовин, які містяться в продуктах
+  home-second-p: 'Для аналізу страв потрібно перейти до розділу - '
+form:
+  count: кількість
+  measuring-unit: од. вимірювання
+  name: назва
+  food: продукт
+  action: дії
+  choose-a-unit: Виберіть од.
+  new-ingredient: Новий інгредієнт
+table:
+  nutrition-facts: Харчова цінність
+  amount-per-serving: Сума на порцію
+  calories: Калорії
+  total-fat: Всього жиру
+  saturated-fat: Насичених жирів
+  trans-fat: Транс-жирів
+  cholesterol: Холестерин
+  sodium: Натірй
+  total-carbohydrate: Загальний вміст вуглеводів
+  dietary-fiber: Харчові волокна
+  total-sugars: Цукор
+  protein: Білки
+  vitamin-d: Вітамін D
+  calcium: Кальцій
+  iron: Залізо
+  potassium: Калій
+button:
+  analyze: Отримати дані
+  delete: Видалити
+  cancel: Відмінити
+  confirm: Підтвердити
+  new-recipe: Новий рецепт
+error:
+  error: Error
+  uknown-error: Unknown error
