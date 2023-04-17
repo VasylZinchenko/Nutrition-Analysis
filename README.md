@@ -1,9 +1,10 @@
-<h2>Nutrition-analysis demo-app</h2>
 [DEMO LINK](https://glistening-florentine-5f0a86.netlify.app/nutrition-analysis)
+
+<h2>Nutrition-analysis demo-app</h2>
 
 <p>Here you can research the calorie content and the list of nutrients contained in the products to analyze dishes</p>
 <p><img idth="400" height="400" src="https://i.ibb.co/rdLfKzp/analysis-nutrition.png"></p>
-____________
+
 ## Vivu
 > Opinionated scalable vue boilerplate using vite
 ## Design Pattern
