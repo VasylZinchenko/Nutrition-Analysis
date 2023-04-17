@@ -8,7 +8,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex justify-center items-center flex-col">
+  <div class="flex mx-5 justify-center items-center flex-col">
     <div>
       <p class="mt-10">
         {{ t("text.home-first-p") }}

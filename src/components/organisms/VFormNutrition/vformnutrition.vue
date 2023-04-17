@@ -72,11 +72,12 @@ const isAnalyzeDisabled = computed(() => {
               </tr>
             </tbody>
           </table>
-          <div>
+          <div class="w-250px md:max-w-400px">
             <el-dialog
               v-model="nutritionStore.isDialogVisible"
-              width="45%"
               align-center
+              width="70%"
+              class=" md:max-w-400px"
             >
               <span class="text-base">{{ t("text.confirm-message") }}</span>
               <template #footer>
