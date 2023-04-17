@@ -198,7 +198,7 @@ export const useNutritionStore = defineStore('nutritionStore', () => {
       {
         id: 13,
         atr: enumNtrCode.K,
-        label: 'table.potassium',
+        label: t('table.potassium'),
         unit: 'mg',
         daily: 4700,
       },
