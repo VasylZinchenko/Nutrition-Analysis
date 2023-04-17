@@ -9,7 +9,7 @@ text:
   last-paragraph: Enter each ingredient on a new line.
   confirm-message: Are you sure you want to remove this ingredient?
   home-first-p: Here you can research the calorie content and the list of nutrients contained in the products
-  home-second-p: 'To analyze dishes, go to the - '
+  home-second-p: 'to analyze dishes, go to the - '
 form:
   count: count
   measuring-unit: measuring unit
