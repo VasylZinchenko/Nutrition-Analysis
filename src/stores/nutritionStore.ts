@@ -1,6 +1,5 @@
 import { acceptHMRUpdate, defineStore } from 'pinia'
 import { API_NUTRITION } from '@/constants/nutritionConstant'
-import { httpService } from '@/services/commonService'
 import type {
   FoodArray,
   Input,
@@ -80,7 +79,7 @@ export const useNutritionStore = defineStore('nutritionStore', () => {
       .map(subArr => subArr.map(obj => obj.value).join(' '))
       .map(
         ingr =>
-          `${API_NUTRITION}?app_id=${appId.value}&app_key=${appKey.value}&nutrition-type=cooking&ingr=${ingr}`,
+          `https://api.edamam.com/${API_NUTRITION}?app_id=${appId.value}&app_key=${appKey.value}&nutrition-type=cooking&ingr=${ingr}`,
       ),
   )
 
@@ -88,9 +87,14 @@ export const useNutritionStore = defineStore('nutritionStore', () => {
     isFetching.value = true
 
     try {
-      const data = await Promise.all(
-        requests.value.map(url => httpService.get(url)),
+      const responses = await Promise.all(
+        requests.value.map(url => fetch(url)),
       )
+
+      const data = await Promise.all(
+        responses.map(response => response.json()),
+      )
+
       nutritionData.value = data.map(el => el.totalNutrients)
       calories.value = data.map(el => el.calories).reduce((a, b) => a + b)
       isFetching.value = false

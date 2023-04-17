@@ -1,10 +1,6 @@
 import { acceptHMRUpdate, defineStore } from 'pinia'
 
 export const useCommonStore = defineStore('common', () => {
-  /**
-   * DESC:
-   * common states and actions
-   */
   const usedTitle = ref('')
 
   function setTitle(title: string) {
